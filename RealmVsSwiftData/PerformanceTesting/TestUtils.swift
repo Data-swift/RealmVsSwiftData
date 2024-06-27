@@ -8,11 +8,14 @@
 import Foundation
 
 func runAllPerformanceTests() {
-    
     for num in [100, 1_000, 10_000, 100_000, 1_000_000] { //, 2_000_000, 10_000_000] {
         swiftUsersPerformanceTests(with: num)
     }
     
+    for num in [100, 1_000, 10_000, 100_000, 1_000_000] { //, 2_000_000, 10_000_000] {
+        coreUsersPerformanceTests(with: num)
+    }
+  
     for num in [100, 1_000, 10_000, 100_000, 1_000_000, 2_000_000] { //, 10_000_000] {
         realmUsersPerformanceTests(with: num)
     }
@@ -21,10 +24,14 @@ func runAllPerformanceTests() {
         swiftStudentsPerformanceTests(with: num)
     }
     
+    for num in [100, 1_000, 10_000, 100_000, 200_000] { //, 1_000_000] {
+        coreStudentsPerformanceTests(with: num)
+    }
+    
     for num in [100, 1_000, 10_000, 100_000, 200_000, 1_000_000] {
         realmStudentsPerformanceTests(with: num)
     }
-    
+
     deleteAllDatabaseFiles()
 }
 
@@ -34,6 +41,12 @@ func deleteAllDatabaseFiles() {
     }
     if let swiftStudentDB = try? SwiftStudentDB() {
         delete(db: swiftStudentDB)
+    }
+    if let coreUserDB = try? CoreUserDB() {
+        delete(db: coreUserDB)
+    }
+    if let coreStudentDB = try? CoreStudentDB() {
+        delete(db: coreStudentDB)
     }
     let realmUserDB = RealmUserDB()
     delete(db: realmUserDB)

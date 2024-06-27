@@ -33,6 +33,14 @@
 		16A41EDB2BE3A7DE00C62A21 /* SwiftStudentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A41ED82BE3A7DE00C62A21 /* SwiftStudentsTests.swift */; };
 		16A41EDC2BE3A7DE00C62A21 /* RealmStudentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A41ED92BE3A7DE00C62A21 /* RealmStudentsTests.swift */; };
 		16A41EDD2BE3A7DE00C62A21 /* SwiftUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A41EDA2BE3A7DE00C62A21 /* SwiftUsersTests.swift */; };
+		E82FB4D82C2C50D7000E0FCC /* CoreStudentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FB4D62C2C50D7000E0FCC /* CoreStudentsTests.swift */; };
+		E82FB4D92C2C50D7000E0FCC /* CoreUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FB4D72C2C50D7000E0FCC /* CoreUsersTests.swift */; };
+		E82FB4E22C2C50E7000E0FCC /* CoreUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FB4DD2C2C50E7000E0FCC /* CoreUser.swift */; };
+		E82FB4E32C2C50E7000E0FCC /* CoreStudentDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FB4DB2C2C50E7000E0FCC /* CoreStudentDB.swift */; };
+		E82FB4E42C2C50E7000E0FCC /* CoreDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FB4E02C2C50E7000E0FCC /* CoreDatabase.swift */; };
+		E82FB4E52C2C50E7000E0FCC /* CoreStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FB4DA2C2C50E7000E0FCC /* CoreStudent.swift */; };
+		E82FB4E62C2C50E7000E0FCC /* CoreUserDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FB4DE2C2C50E7000E0FCC /* CoreUserDB.swift */; };
+		E82FB4EA2C2C537B000E0FCC /* ManagedModels in Frameworks */ = {isa = PBXBuildFile; productRef = E82FB4E92C2C537B000E0FCC /* ManagedModels */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +70,14 @@
 		16A41ED82BE3A7DE00C62A21 /* SwiftStudentsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStudentsTests.swift; sourceTree = "<group>"; };
 		16A41ED92BE3A7DE00C62A21 /* RealmStudentsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmStudentsTests.swift; sourceTree = "<group>"; };
 		16A41EDA2BE3A7DE00C62A21 /* SwiftUsersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUsersTests.swift; sourceTree = "<group>"; };
+		E82FB4D62C2C50D7000E0FCC /* CoreStudentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStudentsTests.swift; sourceTree = "<group>"; };
+		E82FB4D72C2C50D7000E0FCC /* CoreUsersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreUsersTests.swift; sourceTree = "<group>"; };
+		E82FB4DA2C2C50E7000E0FCC /* CoreStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStudent.swift; sourceTree = "<group>"; };
+		E82FB4DB2C2C50E7000E0FCC /* CoreStudentDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStudentDB.swift; sourceTree = "<group>"; };
+		E82FB4DD2C2C50E7000E0FCC /* CoreUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreUser.swift; sourceTree = "<group>"; };
+		E82FB4DE2C2C50E7000E0FCC /* CoreUserDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreUserDB.swift; sourceTree = "<group>"; };
+		E82FB4E02C2C50E7000E0FCC /* CoreDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDatabase.swift; sourceTree = "<group>"; };
+		E82FB4E72C2C5155000E0FCC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82FB4EA2C2C537B000E0FCC /* ManagedModels in Frameworks */,
 				167973DC2BC8057C002FE4D9 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,9 +132,11 @@
 		167973BE2BC804B9002FE4D9 = {
 			isa = PBXGroup;
 			children = (
+				E82FB4E72C2C5155000E0FCC /* README.md */,
 				167973C92BC804B9002FE4D9 /* RealmVsSwiftData */,
 				167973C82BC804B9002FE4D9 /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
 		};
 		167973C82BC804B9002FE4D9 /* Products */ = {
@@ -156,6 +175,7 @@
 				167973E22BC805D6002FE4D9 /* Database.swift */,
 				167973E12BC805B7002FE4D9 /* SwiftData */,
 				167973E02BC805B3002FE4D9 /* Realm */,
+				E82FB4E12C2C50E7000E0FCC /* CoreData */,
 			);
 			path = DB;
 			sourceTree = "<group>";
@@ -188,6 +208,8 @@
 				16A41ED92BE3A7DE00C62A21 /* RealmStudentsTests.swift */,
 				16A41ED82BE3A7DE00C62A21 /* SwiftStudentsTests.swift */,
 				16A41EDA2BE3A7DE00C62A21 /* SwiftUsersTests.swift */,
+				E82FB4D62C2C50D7000E0FCC /* CoreStudentsTests.swift */,
+				E82FB4D72C2C50D7000E0FCC /* CoreUsersTests.swift */,
 			);
 			path = PerformanceTesting;
 			sourceTree = "<group>";
@@ -212,6 +234,34 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		E82FB4DC2C2C50E7000E0FCC /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				E82FB4DA2C2C50E7000E0FCC /* CoreStudent.swift */,
+				E82FB4DB2C2C50E7000E0FCC /* CoreStudentDB.swift */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		E82FB4DF2C2C50E7000E0FCC /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				E82FB4DD2C2C50E7000E0FCC /* CoreUser.swift */,
+				E82FB4DE2C2C50E7000E0FCC /* CoreUserDB.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		E82FB4E12C2C50E7000E0FCC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E82FB4DC2C2C50E7000E0FCC /* Students */,
+				E82FB4DF2C2C50E7000E0FCC /* Users */,
+				E82FB4E02C2C50E7000E0FCC /* CoreDatabase.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,6 +280,7 @@
 			name = RealmVsSwiftData;
 			packageProductDependencies = (
 				167973DB2BC8057C002FE4D9 /* RealmSwift */,
+				E82FB4E92C2C537B000E0FCC /* ManagedModels */,
 			);
 			productName = RealmVsSwiftData;
 			productReference = 167973C72BC804B9002FE4D9 /* RealmVsSwiftData.app */;
@@ -261,6 +312,7 @@
 			mainGroup = 167973BE2BC804B9002FE4D9;
 			packageReferences = (
 				167973DA2BC8057B002FE4D9 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				E82FB4E82C2C537B000E0FCC /* XCRemoteSwiftPackageReference "ManagedModels" */,
 			);
 			productRefGroup = 167973C82BC804B9002FE4D9 /* Products */;
 			projectDirPath = "";
@@ -297,6 +349,11 @@
 				167973E92BC805E0002FE4D9 /* SwiftUser.swift in Sources */,
 				16A41ED52BE38F6600C62A21 /* SchoolLocations.swift in Sources */,
 				167973E72BC805E0002FE4D9 /* SwiftDatabase.swift in Sources */,
+				E82FB4E22C2C50E7000E0FCC /* CoreUser.swift in Sources */,
+				E82FB4E32C2C50E7000E0FCC /* CoreStudentDB.swift in Sources */,
+				E82FB4E42C2C50E7000E0FCC /* CoreDatabase.swift in Sources */,
+				E82FB4E52C2C50E7000E0FCC /* CoreStudent.swift in Sources */,
+				E82FB4E62C2C50E7000E0FCC /* CoreUserDB.swift in Sources */,
 				16A41ED32BE38F3A00C62A21 /* SchoolNames.swift in Sources */,
 				16168E342BE0C36300874AC2 /* SwiftStudent.swift in Sources */,
 				167973FB2BC8063F002FE4D9 /* FirstNames.swift in Sources */,
@@ -309,6 +366,8 @@
 				16168E362BE0C36A00874AC2 /* RealmStudent.swift in Sources */,
 				16A41EDD2BE3A7DE00C62A21 /* SwiftUsersTests.swift in Sources */,
 				167973EF2BC805E4002FE4D9 /* RealmUserDB.swift in Sources */,
+				E82FB4D82C2C50D7000E0FCC /* CoreStudentsTests.swift in Sources */,
+				E82FB4D92C2C50D7000E0FCC /* CoreUsersTests.swift in Sources */,
 				16A41ED72BE3A7C400C62A21 /* RealmUsersTests.swift in Sources */,
 				167973ED2BC805E4002FE4D9 /* RelamDatabase.swift in Sources */,
 			);
@@ -527,6 +586,14 @@
 				kind = branch;
 			};
 		};
+		E82FB4E82C2C537B000E0FCC /* XCRemoteSwiftPackageReference "ManagedModels" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Data-swift/ManagedModels.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.12;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -534,6 +601,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 167973DA2BC8057B002FE4D9 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
+		};
+		E82FB4E92C2C537B000E0FCC /* ManagedModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E82FB4E82C2C537B000E0FCC /* XCRemoteSwiftPackageReference "ManagedModels" */;
+			productName = ManagedModels;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
