@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftData // FetchDescriptor
 
 func swiftStudentsPerformanceTests(with studentsCount: Int = 10_000) {
     
@@ -50,14 +51,16 @@ func swiftStudentsPerformanceTests(with studentsCount: Int = 10_000) {
             (student.school?.name == "Falconwood College")
             && (student.grades.contains(where: { $0.subject == maths }))
         }
-        let studentsWhoCheatedAtMaths = try! db.read(predicate: predicate)
-        let mathsGrades = studentsWhoCheatedAtMaths
-            .flatMap { $0.grades }
-            .filter { $0.subject == maths }
-        for grade in mathsGrades {
-            grade.grade = SwiftGrade.Grade.f.rawValue
+        try! db.update { context in
+            let fetchDescriptor = FetchDescriptor<SwiftStudent>(predicate: predicate)
+            let studentsWhoCheatedAtMaths = try context.fetch(fetchDescriptor)
+            for student in studentsWhoCheatedAtMaths {
+                for grade in student.grades {
+                    grade.grade = SwiftGrade.Grade.f.rawValue
+                }
+            }
+            try context.save()
         }
-        try! db.update(studentsWhoCheatedAtMaths)
     }
     
     measureSize(of: db)
