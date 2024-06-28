@@ -11,7 +11,7 @@ import ManagedModels
 final class CoreStudentDB: CoreDatabase {
     
     static let schema = Schema.model(for: [ CoreStudent.self, CoreSchool.self, CoreGrade.self ])
-    static let configuration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+    static let configuration = ModelConfiguration(name: "CoreStudentDB", schema: schema, isStoredInMemoryOnly: false)
     typealias T = CoreStudent
     
     let container : ModelContainer
