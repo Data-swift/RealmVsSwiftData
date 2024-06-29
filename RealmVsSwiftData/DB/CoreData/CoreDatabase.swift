@@ -32,12 +32,16 @@ extension CoreDatabase {
         let context = ModelContext(container)
         items.forEach { $0.insertWithAllDependencies(into: context) }
         try context.save()
+
+		context.reset()
     }
     
     func create(_ item: T) throws {
         let context = ModelContext(container)
         item.insertWithAllDependencies(into: context)
         try context.save()
+
+		context.reset()
     }
     
     func read(predicate: Filtering?, sortBy sortDescriptors: [NSSortDescriptor]) throws -> [T] {
