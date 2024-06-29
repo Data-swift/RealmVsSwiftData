@@ -27,6 +27,10 @@ extension CoreDatabase {
     var fileURL: URL? {
         container.configurations.first?.url
     }
+	
+	var context: ModelContext {
+		return ModelContext(container)
+	}
     
     func create(_ items: [T]) throws {
         let context = ModelContext(container)
