@@ -43,10 +43,12 @@ func coreUsersPerformanceTests(with usersCount: Int = 100_000) {
 		importer(usersCount)
 		
 	} else {
-		let limit = usersCount / chunk
-		for i in (0 ..< limit) {
-			print("Chunk count: \( i )")
-			importer(chunk)
+		logExecutionTime("Total \( usersCount ) User instantiation + Create") {
+			let limit = usersCount / chunk
+			for i in (0 ..< limit) {
+				print("Chunk count: \( i )")
+				importer(chunk)
+			}
 		}
 	}
 
