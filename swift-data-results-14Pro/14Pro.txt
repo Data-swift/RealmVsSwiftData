@@ -1,0 +1,58 @@
+
+💽 ===============
+💽 SwiftData: 100 Simple Objects
+===============
+💽 User instantiation: 0.0139
+💽 Create users: 0.0240
+0 users named Jane
+💽 Fetch users named `Jane` in age order: 0.0049
+0 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0003
+💽 DB file size: 0.07 MB
+💽 Delete all users: 0.0009
+
+💽 ===============
+💽 SwiftData: 1.000 Simple Objects
+===============
+💽 User instantiation: 0.0387
+💽 Create users: 0.0598
+0 users named Jane
+💽 Fetch users named `Jane` in age order: 0.0002
+0 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0003
+💽 DB file size: 0.07 MB
+💽 Delete all users: 0.0032
+
+💽 ===============
+💽 SwiftData: 10.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 9 and pages_to_free 1
+💽 User instantiation: 0.3209
+💽 Create users: 1.4620
+5 users named Jane
+💽 Fetch users named `Jane` in age order: 0.0013
+5 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0040
+💽 DB file size: 0.07 MB
+💽 Delete all users: 0.0175
+
+💽 ===============
+💽 SwiftData: 100.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 103 and pages_to_free 20
+💽 User instantiation: 3.2442
+CoreData: debug: PostSaveMaintenance: fileSize 13427112 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 148.5257
+25 users named Jane
+💽 Fetch users named `Jane` in age order: 0.0150
+25 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.1117
+💽 DB file size: 11.04 MB
+💽 Delete all users: 0.2479
+
+💽 ===============
+💽 SwiftData: 1.000.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 1034 and pages_to_free 206
+💽 User instantiation: 42.3852

@@ -1,0 +1,138 @@
+
+💽 ===============
+💽 CoreData: 100 Simple Objects
+===============
+💽 User instantiation: 0.0018
+💽 Create users: 0.0103
+0 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0007
+0 users named `Jane` being renamed to `Wendy`
+0 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0004
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0004
+
+💽 ===============
+💽 CoreData: 1.000 Simple Objects
+===============
+💽 User instantiation: 0.0052
+💽 Create users: 0.0139
+0 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0005
+0 users named `Jane` being renamed to `Wendy`
+0 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0003
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0010
+
+💽 ===============
+💽 CoreData: 10.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 18 and pages_to_free 11
+💽 User instantiation: 0.0295
+💽 Create users: 0.0760
+1 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0019
+1 users named `Jane` being renamed to `Wendy`
+1 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0006
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0056
+
+💽 ===============
+💽 CoreData: 100.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 182 and pages_to_free 175
+💽 User instantiation: 0.2084
+CoreData: debug: PostSaveMaintenance: fileSize 9315352 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.9092
+24 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0304
+24 users named `Jane` being renamed to `Wendy`
+24 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0094
+💽 DB file size: 7.26 MB
+💽 Delete all users: 0.0997
+
+💽 ===============
+💽 CoreData: 1.000.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 1850 and pages_to_free 1841
+Chunk count: 0
+💽 User instantiation: 0.2129
+💽 Create users: 0.9008
+Chunk count: 1
+💽 User instantiation: 0.2160
+CoreData: debug: PostSaveMaintenance: fileSize 10551352 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.9748
+Chunk count: 2
+💽 User instantiation: 0.2100
+CoreData: debug: PostSaveMaintenance: fileSize 13324112 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 1.1702
+Chunk count: 3
+💽 User instantiation: 0.2157
+CoreData: debug: PostSaveMaintenance: fileSize 16113352 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 1.3741
+Chunk count: 4
+💽 User instantiation: 0.2347
+CoreData: debug: PostSaveMaintenance: fileSize 18943792 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 1.5317
+Chunk count: 5
+💽 User instantiation: 0.2304
+CoreData: debug: PostSaveMaintenance: fileSize 21765992 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 1.6143
+Chunk count: 6
+💽 User instantiation: 0.2310
+CoreData: debug: PostSaveMaintenance: fileSize 24415152 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 1.6894
+Chunk count: 7
+💽 User instantiation: 0.2362
+CoreData: debug: PostSaveMaintenance: fileSize 27393912 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 1.7546
+Chunk count: 8
+💽 User instantiation: 0.2361
+CoreData: debug: PostSaveMaintenance: fileSize 30207872 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 1.8304
+Chunk count: 9
+💽 User instantiation: 0.2621
+CoreData: debug: PostSaveMaintenance: fileSize 33001232 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 1.9374
+💽 Total 1000000 User instantiation + Create: 17.0897
+190 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.1683
+190 users named `Jane` being renamed to `Wendy`
+190 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0617
+💽 DB file size: 72.70 MB
+CoreData: debug: PostSaveMaintenance: fileSize 68037712 greater than prune threshold
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 18581 and pages_to_free 18552
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Delete all users: 2.7786
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/86640D14-2C84-4DCE-812C-6DC45DDD0D4A/Library/Application Support/default.store
+invalidated open fd: 15 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/86640D14-2C84-4DCE-812C-6DC45DDD0D4A/Library/Application Support/default.store
+invalidated open fd: 15 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/86640D14-2C84-4DCE-812C-6DC45DDD0D4A/Library/Application Support/CoreUserDB
+invalidated open fd: 15 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/86640D14-2C84-4DCE-812C-6DC45DDD0D4A/Library/Application Support/CoreUserDB
+invalidated open fd: 10 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/86640D14-2C84-4DCE-812C-6DC45DDD0D4A/Library/Application Support/CoreUserDB
+invalidated open fd: 8 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/86640D14-2C84-4DCE-812C-6DC45DDD0D4A/Library/Application Support/CoreUserDB
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/86640D14-2C84-4DCE-812C-6DC45DDD0D4A/Library/Application Support/CoreUserDB
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/86640D14-2C84-4DCE-812C-6DC45DDD0D4A/Library/Application Support/CoreUserDB
+invalidated open fd: 6 (0x11)
+invalidated open fd: 13 (0x11)
+invalidated open fd: 3 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/86640D14-2C84-4DCE-812C-6DC45DDD0D4A/Library/Application Support/CoreStudentDB
+invalidated open fd: 16 (0x11)

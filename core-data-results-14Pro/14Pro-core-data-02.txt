@@ -1,0 +1,76 @@
+
+💽 ===============
+💽 CoreData: 100 Simple Objects
+===============
+💽 User instantiation: 0.0066
+💽 Create users: 0.0147
+0 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0016
+0 users named `Jane` being renamed to `Wendy`
+0 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0010
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0011
+
+💽 ===============
+💽 CoreData: 1.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 2 and pages_to_free 0
+💽 User instantiation: 0.0083
+💽 Create users: 0.0174
+0 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0006
+0 users named `Jane` being renamed to `Wendy`
+0 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0004
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0012
+
+💽 ===============
+💽 CoreData: 10.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 19 and pages_to_free 12
+💽 User instantiation: 0.0320
+💽 Create users: 0.0757
+1 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0020
+1 users named `Jane` being renamed to `Wendy`
+1 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0006
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0056
+
+💽 ===============
+💽 CoreData: 100.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 178 and pages_to_free 171
+💽 User instantiation: 0.2091
+CoreData: debug: PostSaveMaintenance: fileSize 9331832 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.8758
+21 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0288
+21 users named `Jane` being renamed to `Wendy`
+21 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0088
+💽 DB file size: 7.24 MB
+💽 Delete all users: 0.1053
+
+💽 ===============
+💽 CoreData: 1.000.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 1844 and pages_to_free 1835
+💽 User instantiation: 2.2024
+CoreData: debug: PostSaveMaintenance: fileSize 76726792 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 31.5156
+195 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.6109
+195 users named `Jane` being renamed to `Wendy`
+195 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0769
+💽 DB file size: 72.74 MB
+CoreData: debug: PostSaveMaintenance: fileSize 68186032 greater than prune threshold
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 18592 and pages_to_free 18563
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Delete all users: 2.9232

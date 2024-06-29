@@ -1,0 +1,97 @@
+
+💽 ===============
+💽 CoreData: 100 Simple Objects
+===============
+💽 User instantiation: 0.0008
+💽 Create users: 0.0129
+0 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0004
+0 users named `Jane` being renamed to `Wendy`
+0 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0003
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0003
+
+💽 ===============
+💽 CoreData: 1.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 2 and pages_to_free 0
+💽 User instantiation: 0.0035
+💽 Create users: 0.0102
+0 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0002
+0 users named `Jane` being renamed to `Wendy`
+0 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0002
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0009
+
+💽 ===============
+💽 CoreData: 10.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 18 and pages_to_free 11
+💽 User instantiation: 0.0248
+💽 Create users: 0.0745
+2 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0006
+2 users named `Jane` being renamed to `Wendy`
+2 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0007
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0059
+
+💽 ===============
+💽 CoreData: 100.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 180 and pages_to_free 173
+💽 User instantiation: 0.2107
+CoreData: debug: PostSaveMaintenance: fileSize 9315352 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.8991
+23 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0053
+23 users named `Jane` being renamed to `Wendy`
+23 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0081
+💽 DB file size: 7.22 MB
+💽 Delete all users: 0.0867
+
+💽 ===============
+💽 CoreData: 1.000.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 1839 and pages_to_free 1830
+💽 User instantiation: 2.2695
+CoreData: debug: PostSaveMaintenance: fileSize 76430152 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 39.7839
+188 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0687
+188 users named `Jane` being renamed to `Wendy`
+188 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0802
+💽 DB file size: 72.46 MB
+CoreData: debug: PostSaveMaintenance: fileSize 68350832 greater than prune threshold
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 18520 and pages_to_free 18491
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Delete all users: 3.8762
+
+
+
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/F146F45A-91EE-4E8E-BB57-97674A9B0702/Library/Application Support/default.store
+invalidated open fd: 15 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/F146F45A-91EE-4E8E-BB57-97674A9B0702/Library/Application Support/default.store
+invalidated open fd: 15 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/F146F45A-91EE-4E8E-BB57-97674A9B0702/Library/Application Support/CoreUserDB
+invalidated open fd: 15 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/F146F45A-91EE-4E8E-BB57-97674A9B0702/Library/Application Support/CoreUserDB
+invalidated open fd: 13 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/F146F45A-91EE-4E8E-BB57-97674A9B0702/Library/Application Support/CoreUserDB
+invalidated open fd: 8 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/F146F45A-91EE-4E8E-BB57-97674A9B0702/Library/Application Support/CoreUserDB
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/F146F45A-91EE-4E8E-BB57-97674A9B0702/Library/Application Support/CoreUserDB
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/F146F45A-91EE-4E8E-BB57-97674A9B0702/Library/Application Support/CoreUserDB
+invalidated open fd: 6 (0x11)
+invalidated open fd: 10 (0x11)
+invalidated open fd: 3 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/F146F45A-91EE-4E8E-BB57-97674A9B0702/Library/Application Support/CoreStudentDB
+invalidated open fd: 16 (0x11)
