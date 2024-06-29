@@ -26,7 +26,7 @@ func coreUsersPerformanceTests(with usersCount: Int = 100_000) {
         try! db.create(users)
     }
  */
-	
+/*
 	let importer: (Int) -> Void = { limit in
 		var users = [CoreUser]()
 		logExecutionTime("User instantiation") {
@@ -51,8 +51,38 @@ func coreUsersPerformanceTests(with usersCount: Int = 100_000) {
 			}
 		}
 	}
-
+*/
+	let importer2: (Int) -> Void = { limit in
+		let context = db.context
+		context.performAndWait {
+			logExecutionTime("User instantiation") {
+				(0..<limit).forEach { _ in
+					let _ = CoreUser(moc: context)
+				}
+			}
+			
+			logExecutionTime("Save users") {
+				try! context.save()
+			}
+		}
+		
+		context.reset()
+	}
     
+	let chunk = 100_000
+	if usersCount <= chunk {
+		importer2(usersCount)
+		
+	} else {
+		logExecutionTime("Total \( usersCount ) User instantiation + Create") {
+			let limit = usersCount / chunk
+			for i in (0 ..< limit) {
+				print("Chunk count: \( i )")
+				importer2(chunk)
+			}
+		}
+	}
+
     logExecutionTime("Fetch users named `Jane` in age order") {
         let predicate = NSPredicate(format: "firstName = %@", "Jane")
         let janes = try! db.read(predicate: predicate, sortBy: NSSortDescriptor(key: "age", ascending: true))
