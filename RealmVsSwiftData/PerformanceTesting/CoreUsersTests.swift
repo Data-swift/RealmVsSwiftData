@@ -16,6 +16,7 @@ func coreUsersPerformanceTests(with usersCount: Int = 100_000) {
     
     try! db.deleteAll()
     
+/*
     var users = [CoreUser]()
     logExecutionTime("User instantiation") {
         users = (0..<usersCount).compactMap { _ in CoreUser() }
@@ -24,6 +25,31 @@ func coreUsersPerformanceTests(with usersCount: Int = 100_000) {
     logExecutionTime("Create users") {
         try! db.create(users)
     }
+ */
+	
+	let importer: (Int) -> Void = { limit in
+		var users = [CoreUser]()
+		logExecutionTime("User instantiation") {
+			users = (0..<limit).compactMap { _ in CoreUser() }
+		}
+		
+		logExecutionTime("Create users") {
+			try! db.create(users)
+		}
+	}
+	
+	let chunk = 10_000
+	if usersCount <= chunk {
+		importer(usersCount)
+		
+	} else {
+		let limit = usersCount / chunk
+		for i in (0 ..< limit) {
+			print("Chunk count: \( i )")
+			importer(chunk)
+		}
+	}
+
     
     logExecutionTime("Fetch users named `Jane` in age order") {
         let predicate = NSPredicate(format: "firstName = %@", "Jane")
