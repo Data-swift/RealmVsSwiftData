@@ -13,8 +13,7 @@ where T: PersistentModel,
       Sorting == SortDescriptor<T>,
       Filtering == Predicate<T> {
     var container: ModelContainer { get }
-    func update(_ item: T) throws
-    func update(_ items: [T]) throws
+    func update(execute: ( ModelContext ) throws -> Void) throws
 }
 
 extension SwiftDatabase {
@@ -54,17 +53,9 @@ extension SwiftDatabase {
         }
     }
     
-    func update(_ item: T) throws {
+    func update(execute: ( ModelContext ) throws -> Void) throws {
         let context = ModelContext(container)
-        context.insert(item)
-        try context.save()
-    }
-    
-    func update(_ items: [T]) throws {
-        let context = ModelContext(container)
-        for item in items {
-            context.insert(item)
-        }
+        try execute(context)
         try context.save()
     }
     

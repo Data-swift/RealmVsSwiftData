@@ -41,7 +41,22 @@
 		E82FB4E52C2C50E7000E0FCC /* CoreStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FB4DA2C2C50E7000E0FCC /* CoreStudent.swift */; };
 		E82FB4E62C2C50E7000E0FCC /* CoreUserDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82FB4DE2C2C50E7000E0FCC /* CoreUserDB.swift */; };
 		E82FB4EA2C2C537B000E0FCC /* ManagedModels in Frameworks */ = {isa = PBXBuildFile; productRef = E82FB4E92C2C537B000E0FCC /* ManagedModels */; };
+		E8E270CD2C3182EB00446B7F /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 167973DB2BC8057C002FE4D9 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8E270CE2C3182EB00446B7F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E8E270CD2C3182EB00446B7F /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		16168E332BE0C36200874AC2 /* SwiftStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudent.swift; sourceTree = "<group>"; };
@@ -272,6 +287,7 @@
 				167973C32BC804B9002FE4D9 /* Sources */,
 				167973C42BC804B9002FE4D9 /* Frameworks */,
 				167973C52BC804B9002FE4D9 /* Resources */,
+				E8E270CE2C3182EB00446B7F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
