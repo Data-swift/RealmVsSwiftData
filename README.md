@@ -30,9 +30,10 @@ Michal Tsai's coverage: https://mjtsai.com/blog/2024/06/24/swiftdata-vs-realm-pe
   - [Lighter.swift](https://github.com/Lighter-swift) by [Helge Heß](https://helgehess.eu/), direct SQLite access
 
 
-## Numbers
+## Numbers (Simulator)
 
-M2 Mac Mini Pro, Xcode 16 b2, running in simulator
+M2 Mac Mini Pro, Xcode 16 b2, **running in simulator**
+Note: Core Data in the simulator seems to be about 40⨯ slower than on device!
 
 - SwiftData and CoreData can grow big, e.g. SwiftData >6GB of RAM for the 1m 
   user inserts, or CoreData >2GB of RAM for the "complex" 100k run.
