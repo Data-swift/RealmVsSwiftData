@@ -28,9 +28,18 @@ final class CoreUser: NSManagedObject, User {
         }
         self.init(firstName: firstName, surname: surname, age: Int.random(in: 0..<99))
     }
+	
+	convenience init(moc: ModelContext? = nil) {
+		guard let firstName = firstNames.randomElement(),
+			  let surname = surnames.randomElement() else {
+			//throw UserError.nameNotFound
+			fatalError("Name not found")
+		}
+		self.init(context: moc, firstName: firstName, surname: surname, age: Int.random(in: 0..<99))
+	}
     
-    convenience init(firstName: String, surname: String, age: Int) {
-        self.init(context: nil)
+	convenience init(context: ModelContext? = nil, firstName: String, surname: String, age: Int) {
+        self.init(context: context)
         self.id = UUID()
         self.firstName = firstName
         self.surname = surname

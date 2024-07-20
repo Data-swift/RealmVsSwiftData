@@ -1,0 +1,562 @@
+
+💽 ===============
+💽 CoreData: 100 Simple Objects
+===============
+💽 User instantiation: 0.0015
+💽 Create users: 0.0199
+0 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0009
+0 users named `Jane` being renamed to `Wendy`
+0 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0005
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0006
+
+💽 ===============
+💽 CoreData: 1.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 2 and pages_to_free 0
+💽 User instantiation: 0.0054
+💽 Create users: 0.0142
+0 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0005
+0 users named `Jane` being renamed to `Wendy`
+0 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0003
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0011
+
+💽 ===============
+💽 CoreData: 10.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 18 and pages_to_free 11
+💽 User instantiation: 0.0297
+💽 Create users: 0.0763
+2 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0019
+2 users named `Jane` being renamed to `Wendy`
+2 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0007
+💽 DB file size: 0.03 MB
+💽 Delete all users: 0.0060
+
+💽 ===============
+💽 CoreData: 100.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 179 and pages_to_free 172
+Chunk count: 0
+💽 User instantiation: 0.0207
+💽 Create users: 0.0750
+Chunk count: 1
+💽 User instantiation: 0.0207
+💽 Create users: 0.0769
+Chunk count: 2
+💽 User instantiation: 0.0207
+💽 Create users: 0.1040
+Chunk count: 3
+💽 User instantiation: 0.0208
+💽 Create users: 0.1003
+Chunk count: 4
+💽 User instantiation: 0.0207
+💽 Create users: 0.0812
+Chunk count: 5
+💽 User instantiation: 0.0208
+💽 Create users: 0.1064
+Chunk count: 6
+💽 User instantiation: 0.0209
+💽 Create users: 0.0884
+Chunk count: 7
+💽 User instantiation: 0.0208
+💽 Create users: 0.1032
+Chunk count: 8
+💽 User instantiation: 0.0208
+💽 Create users: 0.0879
+Chunk count: 9
+💽 User instantiation: 0.0209
+💽 Create users: 0.1035
+💽 Total 100000 User instantiation + Create: 1.1369
+27 users named `Jane`
+💽 Fetch users named `Jane` in age order: 0.0063
+27 users named `Jane` being renamed to `Wendy`
+27 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0113
+💽 DB file size: 7.27 MB
+💽 Delete all users: 0.0886
+
+💽 ===============
+💽 CoreData: 1.000.000 Simple Objects
+===============
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 1852 and pages_to_free 1843
+Chunk count: 0
+💽 User instantiation: 0.0214
+💽 Create users: 0.0750
+Chunk count: 1
+💽 User instantiation: 0.0209
+💽 Create users: 0.0761
+Chunk count: 2
+💽 User instantiation: 0.0206
+💽 Create users: 0.0776
+Chunk count: 3
+💽 User instantiation: 0.0208
+💽 Create users: 0.0912
+Chunk count: 4
+💽 User instantiation: 0.0211
+💽 Create users: 0.0853
+Chunk count: 5
+💽 User instantiation: 0.0208
+💽 Create users: 0.0942
+Chunk count: 6
+💽 User instantiation: 0.0208
+💽 Create users: 0.0867
+Chunk count: 7
+💽 User instantiation: 0.0206
+💽 Create users: 0.0905
+Chunk count: 8
+💽 User instantiation: 0.0210
+💽 Create users: 0.0864
+Chunk count: 9
+💽 User instantiation: 0.0209
+💽 Create users: 0.0990
+Chunk count: 10
+💽 User instantiation: 0.0209
+💽 Create users: 0.0885
+Chunk count: 11
+💽 User instantiation: 0.0210
+💽 Create users: 0.1068
+Chunk count: 12
+💽 User instantiation: 0.0212
+💽 Create users: 0.1085
+Chunk count: 13
+💽 User instantiation: 0.0207
+💽 Create users: 0.1033
+Chunk count: 14
+💽 User instantiation: 0.0207
+💽 Create users: 0.1063
+Chunk count: 15
+💽 User instantiation: 0.0206
+💽 Create users: 0.1084
+Chunk count: 16
+💽 User instantiation: 0.0206
+💽 Create users: 0.1079
+Chunk count: 17
+💽 User instantiation: 0.0207
+💽 Create users: 0.1152
+Chunk count: 18
+💽 User instantiation: 0.0208
+💽 Create users: 0.1186
+Chunk count: 19
+💽 User instantiation: 0.0210
+💽 Create users: 0.1205
+Chunk count: 20
+💽 User instantiation: 0.0208
+💽 Create users: 0.1211
+Chunk count: 21
+💽 User instantiation: 0.0211
+💽 Create users: 0.1216
+Chunk count: 22
+💽 User instantiation: 0.0208
+💽 Create users: 0.1233
+Chunk count: 23
+💽 User instantiation: 0.0213
+💽 Create users: 0.1247
+Chunk count: 24
+💽 User instantiation: 0.0208
+💽 Create users: 0.1273
+Chunk count: 25
+💽 User instantiation: 0.0210
+💽 Create users: 0.1246
+Chunk count: 26
+💽 User instantiation: 0.0211
+💽 Create users: 0.1269
+Chunk count: 27
+💽 User instantiation: 0.0210
+💽 Create users: 0.1309
+Chunk count: 28
+💽 User instantiation: 0.0210
+CoreData: debug: PostSaveMaintenance: fileSize 8623192 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1358
+Chunk count: 29
+💽 User instantiation: 0.0211
+CoreData: debug: PostSaveMaintenance: fileSize 8853912 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1267
+Chunk count: 30
+💽 User instantiation: 0.0210
+CoreData: debug: PostSaveMaintenance: fileSize 9208232 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1339
+Chunk count: 31
+💽 User instantiation: 0.0208
+CoreData: debug: PostSaveMaintenance: fileSize 9476032 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1376
+Chunk count: 32
+💽 User instantiation: 0.0210
+CoreData: debug: PostSaveMaintenance: fileSize 9723232 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1380
+Chunk count: 33
+💽 User instantiation: 0.0211
+CoreData: debug: PostSaveMaintenance: fileSize 9978672 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1379
+Chunk count: 34
+💽 User instantiation: 0.0210
+CoreData: debug: PostSaveMaintenance: fileSize 10225872 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1392
+Chunk count: 35
+💽 User instantiation: 0.0209
+CoreData: debug: PostSaveMaintenance: fileSize 10518392 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1443
+Chunk count: 36
+💽 User instantiation: 0.0208
+CoreData: debug: PostSaveMaintenance: fileSize 10749112 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1773
+Chunk count: 37
+💽 User instantiation: 0.0210
+CoreData: debug: PostSaveMaintenance: fileSize 11029272 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2274
+Chunk count: 38
+💽 User instantiation: 0.0208
+CoreData: debug: PostSaveMaintenance: fileSize 11305312 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2218
+Chunk count: 39
+💽 User instantiation: 0.0210
+CoreData: debug: PostSaveMaintenance: fileSize 11597832 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2102
+Chunk count: 40
+💽 User instantiation: 0.0211
+CoreData: debug: PostSaveMaintenance: fileSize 11799712 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1813
+Chunk count: 41
+💽 User instantiation: 0.0217
+CoreData: debug: PostSaveMaintenance: fileSize 12001592 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1662
+Chunk count: 42
+💽 User instantiation: 0.0216
+CoreData: debug: PostSaveMaintenance: fileSize 12364152 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1774
+Chunk count: 43
+💽 User instantiation: 0.0218
+CoreData: debug: PostSaveMaintenance: fileSize 12561912 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1757
+Chunk count: 44
+💽 User instantiation: 0.0216
+CoreData: debug: PostSaveMaintenance: fileSize 12726712 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1976
+Chunk count: 45
+💽 User instantiation: 0.0219
+CoreData: debug: PostSaveMaintenance: fileSize 13105752 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1802
+Chunk count: 46
+💽 User instantiation: 0.0228
+CoreData: debug: PostSaveMaintenance: fileSize 13274672 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1753
+Chunk count: 47
+💽 User instantiation: 0.0220
+CoreData: debug: PostSaveMaintenance: fileSize 13591912 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1797
+Chunk count: 48
+💽 User instantiation: 0.0217
+CoreData: debug: PostSaveMaintenance: fileSize 13859712 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1886
+Chunk count: 49
+💽 User instantiation: 0.0219
+CoreData: debug: PostSaveMaintenance: fileSize 14078072 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2116
+Chunk count: 50
+💽 User instantiation: 0.0252
+CoreData: debug: PostSaveMaintenance: fileSize 14333512 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1913
+Chunk count: 51
+💽 User instantiation: 0.0249
+CoreData: debug: PostSaveMaintenance: fileSize 14531272 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1970
+Chunk count: 52
+💽 User instantiation: 0.0238
+CoreData: debug: PostSaveMaintenance: fileSize 14675472 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.1991
+Chunk count: 53
+💽 User instantiation: 0.0221
+CoreData: debug: PostSaveMaintenance: fileSize 14951512 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2085
+Chunk count: 54
+💽 User instantiation: 0.0230
+CoreData: debug: PostSaveMaintenance: fileSize 15235792 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2050
+Chunk count: 55
+💽 User instantiation: 0.0223
+CoreData: debug: PostSaveMaintenance: fileSize 15462392 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2285
+Chunk count: 56
+💽 User instantiation: 0.0223
+CoreData: debug: PostSaveMaintenance: fileSize 15623072 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2207
+Chunk count: 57
+💽 User instantiation: 0.0229
+CoreData: debug: PostSaveMaintenance: fileSize 15932072 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2878
+Chunk count: 58
+💽 User instantiation: 0.0222
+CoreData: debug: PostSaveMaintenance: fileSize 16241072 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2557
+Chunk count: 59
+💽 User instantiation: 0.0228
+CoreData: debug: PostSaveMaintenance: fileSize 16335832 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2897
+Chunk count: 60
+💽 User instantiation: 0.0230
+CoreData: debug: PostSaveMaintenance: fileSize 16451192 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2082
+Chunk count: 61
+💽 User instantiation: 0.0230
+CoreData: debug: PostSaveMaintenance: fileSize 16661312 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2231
+Chunk count: 62
+💽 User instantiation: 0.0223
+CoreData: debug: PostSaveMaintenance: fileSize 16949712 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.4167
+Chunk count: 63
+💽 User instantiation: 0.0228
+CoreData: debug: PostSaveMaintenance: fileSize 17056832 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2407
+Chunk count: 64
+💽 User instantiation: 0.0222
+CoreData: debug: PostSaveMaintenance: fileSize 17460592 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2370
+Chunk count: 65
+💽 User instantiation: 0.0224
+CoreData: debug: PostSaveMaintenance: fileSize 17460592 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2168
+Chunk count: 66
+💽 User instantiation: 0.0229
+CoreData: debug: PostSaveMaintenance: fileSize 17806672 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2245
+Chunk count: 67
+💽 User instantiation: 0.0225
+CoreData: debug: PostSaveMaintenance: fileSize 17880832 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2685
+Chunk count: 68
+💽 User instantiation: 0.0231
+CoreData: debug: PostSaveMaintenance: fileSize 18235152 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2307
+Chunk count: 69
+💽 User instantiation: 0.0223
+CoreData: debug: PostSaveMaintenance: fileSize 18585352 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.3319
+Chunk count: 70
+💽 User instantiation: 0.0224
+CoreData: debug: PostSaveMaintenance: fileSize 18754272 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.3475
+Chunk count: 71
+💽 User instantiation: 0.0227
+CoreData: debug: PostSaveMaintenance: fileSize 18766632 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2477
+Chunk count: 72
+💽 User instantiation: 0.0229
+CoreData: debug: PostSaveMaintenance: fileSize 18758392 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2276
+Chunk count: 73
+💽 User instantiation: 0.0229
+CoreData: debug: PostSaveMaintenance: fileSize 19100352 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2507
+Chunk count: 74
+💽 User instantiation: 0.0227
+CoreData: debug: PostSaveMaintenance: fileSize 19326952 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2608
+Chunk count: 75
+💽 User instantiation: 0.0228
+CoreData: debug: PostSaveMaintenance: fileSize 19574152 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2441
+Chunk count: 76
+💽 User instantiation: 0.0230
+CoreData: debug: PostSaveMaintenance: fileSize 19545312 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.5350
+Chunk count: 77
+💽 User instantiation: 0.0230
+CoreData: debug: PostSaveMaintenance: fileSize 19755432 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2825
+Chunk count: 78
+💽 User instantiation: 0.0227
+CoreData: debug: PostSaveMaintenance: fileSize 20097392 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2677
+Chunk count: 79
+💽 User instantiation: 0.0230
+CoreData: debug: PostSaveMaintenance: fileSize 20035592 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.3317
+Chunk count: 80
+💽 User instantiation: 0.0231
+CoreData: debug: PostSaveMaintenance: fileSize 20398152 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2597
+Chunk count: 81
+💽 User instantiation: 0.0229
+CoreData: debug: PostSaveMaintenance: fileSize 20534112 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2624
+Chunk count: 82
+💽 User instantiation: 0.0231
+CoreData: debug: PostSaveMaintenance: fileSize 20554712 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2516
+Chunk count: 83
+💽 User instantiation: 0.0230
+CoreData: debug: PostSaveMaintenance: fileSize 20748352 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.4256
+Chunk count: 84
+💽 User instantiation: 0.0239
+CoreData: debug: PostSaveMaintenance: fileSize 20987312 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.5755
+Chunk count: 85
+💽 User instantiation: 0.0242
+CoreData: debug: PostSaveMaintenance: fileSize 21218032 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.3385
+Chunk count: 86
+💽 User instantiation: 0.0240
+CoreData: debug: PostSaveMaintenance: fileSize 21494072 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.3129
+Chunk count: 87
+💽 User instantiation: 0.0228
+CoreData: debug: PostSaveMaintenance: fileSize 21494072 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2671
+Chunk count: 88
+💽 User instantiation: 0.0227
+CoreData: debug: PostSaveMaintenance: fileSize 21695952 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.8710
+Chunk count: 89
+💽 User instantiation: 0.0240
+CoreData: debug: PostSaveMaintenance: fileSize 21695952 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.3078
+Chunk count: 90
+💽 User instantiation: 0.0241
+CoreData: debug: PostSaveMaintenance: fileSize 21963752 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2771
+Chunk count: 91
+💽 User instantiation: 0.0232
+CoreData: debug: PostSaveMaintenance: fileSize 22264512 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2736
+Chunk count: 92
+💽 User instantiation: 0.0231
+CoreData: debug: PostSaveMaintenance: fileSize 22256272 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2669
+Chunk count: 93
+💽 User instantiation: 0.0240
+CoreData: debug: PostSaveMaintenance: fileSize 22561152 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2959
+Chunk count: 94
+💽 User instantiation: 0.0239
+CoreData: debug: PostSaveMaintenance: fileSize 22664152 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.9467
+Chunk count: 95
+💽 User instantiation: 0.0228
+CoreData: debug: PostSaveMaintenance: fileSize 22688872 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.3816
+Chunk count: 96
+💽 User instantiation: 0.0226
+CoreData: debug: PostSaveMaintenance: fileSize 22964912 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.7182
+Chunk count: 97
+💽 User instantiation: 0.0227
+CoreData: debug: PostSaveMaintenance: fileSize 23191512 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.3170
+Chunk count: 98
+💽 User instantiation: 0.0240
+CoreData: debug: PostSaveMaintenance: fileSize 23265672 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.2783
+Chunk count: 99
+💽 User instantiation: 0.0241
+CoreData: debug: PostSaveMaintenance: fileSize 23236832 greater than prune threshold
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Create users: 0.5921
+💽 Total 1000000 User instantiation + Create: 25.0409
+160 users named `Jane`
+💽 Fetch users named `Jane` in age order: 1.2810
+160 users named `Jane` being renamed to `Wendy`
+160 users renamed to `Wendy`
+💽 Rename users named `Jane` to `Wendy`: 0.0584
+💽 DB file size: 72.45 MB
+CoreData: debug: PostSaveMaintenance: fileSize 68148952 greater than prune threshold
+CoreData: debug: PostSaveMaintenance: incremental_vacuum with freelist_count - 18519 and pages_to_free 18490
+CoreData: annotation: PostSaveMaintenance: wal_checkpoint(TRUNCATE) 
+💽 Delete all users: 3.1042
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/719B34BD-8946-4E58-8666-E601BFBC94FF/Library/Application Support/default.store
+invalidated open fd: 14 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/719B34BD-8946-4E58-8666-E601BFBC94FF/Library/Application Support/default.store
+invalidated open fd: 14 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/719B34BD-8946-4E58-8666-E601BFBC94FF/Library/Application Support/CoreUserDB
+invalidated open fd: 14 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/719B34BD-8946-4E58-8666-E601BFBC94FF/Library/Application Support/CoreUserDB
+invalidated open fd: 12 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/719B34BD-8946-4E58-8666-E601BFBC94FF/Library/Application Support/CoreUserDB
+invalidated open fd: 8 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/719B34BD-8946-4E58-8666-E601BFBC94FF/Library/Application Support/CoreUserDB
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/719B34BD-8946-4E58-8666-E601BFBC94FF/Library/Application Support/CoreUserDB
+invalidated open fd: 3 (0x11)
+invalidated open fd: 6 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/719B34BD-8946-4E58-8666-E601BFBC94FF/Library/Application Support/CoreUserDB
+invalidated open fd: 10 (0x11)
+BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /private/var/mobile/Containers/Data/Application/719B34BD-8946-4E58-8666-E601BFBC94FF/Library/Application Support/CoreStudentDB
+invalidated open fd: 15 (0x11)
